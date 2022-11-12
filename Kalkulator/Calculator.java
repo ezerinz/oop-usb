@@ -5,6 +5,7 @@ public class Calculator {
 
 	void Hitung(){
 		double hasil = 0;
+		boolean adaHasil = true;
 		switch (operasi) {
 			case '+':
 				hasil = angka1 + angka2;
@@ -19,12 +20,12 @@ public class Calculator {
 				hasil = angka1 / angka2;
 				break;
 			default:
-				hasil = 0;
+				adaHasil = false;
 				System.out.println("Operasi tidak terdefinisi!");
 	 			break;
 		}
 
-		if(hasil != 0){
+		if(adaHasil != false){
 			System.out.println(angka1 + " " + operasi + " " + angka2 + " =" + " " + hasil);
 		}
 	}
