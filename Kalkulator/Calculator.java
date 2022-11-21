@@ -3,6 +3,7 @@ public class Calculator {
 	double angka2;
 	char operasi;
 
+	
 	void Hitung(){
 		double hasil = 0;
 		boolean adaHasil = true;
