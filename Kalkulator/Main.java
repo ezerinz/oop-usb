@@ -1,3 +1,8 @@
+/* Nama: Edwin
+ * NIM: D0221371
+ * Kelas: Informatika H 
+ */
+
 import java.util.Scanner;
 
 public class Main {

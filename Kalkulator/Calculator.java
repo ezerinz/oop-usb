@@ -1,3 +1,8 @@
+/* Nama: Edwin
+ * NIM: D0221371
+ * Kelas: Informatika H 
+ */
+
 public class Calculator {
 	double angka1;
 	double angka2;

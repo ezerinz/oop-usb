@@ -1,3 +1,7 @@
+# Nama: Edwin
+# NIM: D0221371
+# Kelas: Informatika H
+
 #buka file txt 
 file = "data.txt"
 data = open(file, "r")
