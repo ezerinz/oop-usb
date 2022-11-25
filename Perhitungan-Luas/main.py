@@ -8,6 +8,7 @@ lingkaran = Lingkaran()
 segitiga = Segitiga()
 persegi = Persegi()
 luas = 0
+
 while True:
     print()
     print("""1. Hitung Luas Segitiga
