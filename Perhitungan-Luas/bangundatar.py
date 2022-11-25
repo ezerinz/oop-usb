@@ -15,7 +15,6 @@ class BangunDatar(ABC):
     def luas(self):
         pass
 
-
 class Lingkaran(BangunDatar):
     def __init__(self, jari = 0):
         self.jari = jari

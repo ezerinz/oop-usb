@@ -34,4 +34,3 @@ while True:
     print("Luas: ", luas)
 
 print("Selamat Tinggal")
-
