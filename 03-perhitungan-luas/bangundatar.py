@@ -6,8 +6,6 @@
 # Abstract class adalah class yang tidak bisa dipakai
 # tapi kita bisa membuat class yang "mewarisi" / inherit dari abstract class
 from abc import ABC, abstractmethod
-
-# Untuk mendapatkan pi
 from math import pi
 
 class BangunDatar(ABC):
@@ -24,7 +22,7 @@ class Lingkaran(BangunDatar):
 
 class Persegi(BangunDatar):
     def __init__(self, sisi = 0):
-        self.sisi = sisi
+        self.__sisi = sisi
 
     def luas(self):
         return self.sisi * self.sisi

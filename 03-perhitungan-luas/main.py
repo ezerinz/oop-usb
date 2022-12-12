@@ -2,11 +2,11 @@
 # NIM   : D0221371
 # Kelas : Informatika H
 
-from bangundatar import *
+import bangundatar as bd
 
-lingkaran = Lingkaran()
-segitiga = Segitiga()
-persegi = Persegi()
+lingkaran = bd.Lingkaran()
+segitiga = bd.Segitiga()
+persegi = bd.Persegi()
 luas = 0
 
 while True:
