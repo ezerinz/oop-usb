@@ -1,4 +1,3 @@
-
 import math
 
 class BangunRuang(object): 
@@ -117,23 +116,3 @@ while True:
         print("Masukkan Inputan yang Benar!")
 
 print("Program selesai")
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
